@@ -1,7 +1,7 @@
-$(function(){ //sayfa tamamen yuklendikten sonra acilacak
+$(function(){ 
 
 
-    var svg=Pablo('#ground').svg({ //svg icin yukseklik ve wid ayari
+    var svg=Pablo('#ground').svg({ 
         width: 1100,
         height: 750
 
@@ -18,7 +18,7 @@ $(function(){ //sayfa tamamen yuklendikten sonra acilacak
     var locationY1=0;
     var locationY2=750;
 
-    ball=svg.circle({ //circle olusturan method
+    ball=svg.circle({ 
         cx:ballX,
         cy:ballY,
         r:ballR,
@@ -47,7 +47,7 @@ $(function(){ //sayfa tamamen yuklendikten sonra acilacak
         // ball.attr({cx:ballX,cy:ballY});
 
         ball.remove();
-        ball=svg.circle({ //circle olusturan method
+        ball=svg.circle({ 
             cx:ballX,
             cy:ballY,
             r:ballR,
